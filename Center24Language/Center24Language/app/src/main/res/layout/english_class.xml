@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnglishClass">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="414dp"
+        android:layout_height="2sp"
+        android:layout_marginTop="56dp"
+        android:background="#DDDDDD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="Lớp Tiếng Anh"
+        android:textColor="#0F9FA1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/toeicView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/alata"
+        android:text="Các khóa học TOEIC"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ieltsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/alata"
+        android:text="Các khóa học IELTS"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="391dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/toeic_button_0"
+            android:layout_width="79dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học TOEIC 450-550"
+            android:backgroundTint="#F6F6F6"
+            android:textColor="#0F9FA1"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toeic_button_1"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học TOEIC 550-650"
+            android:backgroundTint="#F6F6F6"
+            android:textColor="#0F9FA1"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toeic_button_2"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="203dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học TOEIC 650-750"
+            android:backgroundTint="#F6F6F6"
+            android:textColor="#0F9FA1"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:elevation="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/toeic_button_3"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#F6F6F6"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học TOEIC 750+"
+            android:textAlignment="center"
+            android:textColor="#0F9FA1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="391dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/ielts_button_0"
+            android:layout_width="79dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#F6F6F6"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học IELTS 4.0-5.5"
+            android:textAlignment="center"
+            android:textColor="#0F9FA1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ielts_button_1"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#F6F6F6"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học IELTS 5.5-6.5"
+            android:textAlignment="center"
+            android:textColor="#0F9FA1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ielts_button_2"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="203dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#F6F6F6"
+            android:elevation="100dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học IELTS 6.5-7.5"
+            android:textAlignment="center"
+            android:textColor="#0F9FA1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ielts_button_3"
+            android:layout_width="80dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#F6F6F6"
+            android:lineSpacingExtra="8sp"
+            android:text="Khoá học IELTS 7.5+"
+            android:textAlignment="center"
+            android:textColor="#0F9FA1"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

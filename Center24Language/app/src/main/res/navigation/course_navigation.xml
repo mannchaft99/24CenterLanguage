@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course_navigation"
+    app:startDestination="@+id/course_profile">
+
+    <fragment
+        android:id="@+id/course_profile"
+        android:name="com.example.center24language.ui.courseFragments.CourseProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/course_fragment_profile" />
+
+    <fragment
+        android:id="@+id/course_schedule"
+        android:name="com.example.center24language.ui.courseFragments.CourseScheduleFragment"
+        android:label="@string/title_schedule"
+        tools:layout="@layout/course_fragment_schedule" />
+
+    <fragment
+        android:id="@+id/course_result"
+        android:name="com.example.center24language.ui.courseFragments.CourseResultFragment"
+        android:label="@string/title_result"
+        tools:layout="@layout/course_fragment_result" />
+</navigation>

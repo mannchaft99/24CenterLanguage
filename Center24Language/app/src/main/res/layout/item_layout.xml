@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_horizontal"
+    android:orientation="horizontal"
+    android:showDividers="beginning|middle|end">
+
+    <TextView
+        android:id="@+id/stt_student"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/id_student"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/name_student"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:paddingVertical="5dp"
+        android:paddingLeft="5dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/sex_student"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/birth_day"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:paddingVertical="5dp"
+        android:paddingLeft="5dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/class_name"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:paddingVertical="5dp"
+        android:paddingLeft="5dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/details_student"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:paddingVertical="5dp"
+        android:paddingLeft="5dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+</LinearLayout>

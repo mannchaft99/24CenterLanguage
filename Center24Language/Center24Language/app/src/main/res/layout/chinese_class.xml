@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChineseClass">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_background_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/orange_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/chinese_button_0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Khóa Cơ bản (Mục tiêu HSK3)" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_background_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bold_red_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="4"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/chinese_button_1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Khóa Phát triển (Mục tiêu HSK4)" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_background_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bold_blue_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/chinese_button_2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Khóa Nâng cao (Mục tiêu HSK5)" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_background_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/orange_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bold_red_circle"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/chinese_button_3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Khóa Cơ bản đến HSK4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_background_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/orange_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bold_red_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bold_blue_circle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/chinese_button_4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Khóa Cơ bản đến HSK5" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

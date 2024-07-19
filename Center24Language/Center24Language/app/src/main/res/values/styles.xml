@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="login_box">android:maxLines="1"</style>
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FF0000</item> <!-- Màu đỏ -->
+    </style>
+
+</resources>

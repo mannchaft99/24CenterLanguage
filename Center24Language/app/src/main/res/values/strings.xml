@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Center24Language</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_dashboard">Thông tin cá nhân</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_infor">Thông tin cá nhân</string>
+    <string name="title_logout">Đăng xuất</string>
+    <string name="credit">Powered by Nhóm 24</string>
+    <string name="LOGO">Logo</string>
+    <string name="login_message">Welcome !!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_success_message">Đăng nhập thành công</string>
+    <string name="logout_success_message">Đăng xuất thành công !!</string>
+    <string name="login_unsuccess_message">Sai tên dăng nhập hoặc mật khẩu</string>
+    <string name="login_message2">Chưa tham gia khoá học? Ấn đăng ký hoặc liên hệ 0909 090 909</string>
+    <string name="login_message3">Quên mật khẩu? Liên hệ trung tâm để được hỗ trợ</string>
+    <string name="button_signup">Đăng ký khoá học</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="title_result">Kết quả học tập\n</string>
+    <string name="title_schedule">Lịch học</string>
+    <string name="title_profile">Danh sách học viên</string>
+    <string name="back">Back</string>
+    <string name="email_layout">Email</string>
+    <string name="name_layout">Họ và tên:</string>
+    <string name="gender_layout">Giới tính</string>
+    <string name="class_layout">Lớp dạy:</string>
+    <string name="messenger_teacher_layout">Đội ngũ giảng viên</string>
+    <string name="todo">TODO</string>
+</resources>

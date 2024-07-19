@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:divider="@drawable/divider_horizontal"
+    android:showDividers="beginning|middle|end">
+
+    <TextView
+        android:id="@+id/monday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Hai"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tuesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Ba"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Tư"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/thursday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Năm"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Sáu"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/saturday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thứ Bảy"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/sunday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Chủ Nhật"
+        android:textAlignment="center" />
+
+</LinearLayout>
